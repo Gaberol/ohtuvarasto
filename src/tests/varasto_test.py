@@ -74,7 +74,7 @@ class TestVarasto(unittest.TestCase):
     def test_negatiivisen_maaran_ottaminen(self):
         self.varasto.lisaa_varastoon(5)
         
-        self.assertAlmostEqual(self.varasto.ota_varastosta(-3), 0)
+        self.assertNotAlmostEqual(self.varasto.ota_varastosta(-3), 0)
 
     def test_str(self):
         self.varasto.lisaa_varastoon(2)
