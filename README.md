@@ -1,1 +1,3 @@
-![GMA workflow badge](Https://github.com/Gaberol/ohtuvarasto/workflows/CI/badge.svg)
+# ohtuvarasto
+
+![GMA workflow badge](https://github.com/Gaberol/ohtuvarasto/workflows/CI/badge.svg)
